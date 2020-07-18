@@ -114,7 +114,7 @@ public class Gmail {
 
 	@AfterSuite
 	private void close() {
-		// driver.quit();
+		 driver.quit();
 
 	}
 }
