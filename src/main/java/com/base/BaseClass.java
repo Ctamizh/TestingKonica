@@ -19,7 +19,7 @@ public class BaseClass {
 	public static WebDriver driver;
 
 	public static void launchBrowser(String browser) {
-		try {
+		try {//test
 			if (browser.equalsIgnoreCase("chrome")) {
 				System.setProperty("webdriver.chrome.driver",
 						System.getProperty("user.dir") + "\\src\\test\\resource\\com\\driver\\chromedriver.exe");
